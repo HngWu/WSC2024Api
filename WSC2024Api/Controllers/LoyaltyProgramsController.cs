@@ -34,7 +34,7 @@ namespace WSC2024Api.Controllers
         }
 
         public class RecalculatePointsResultDto
-        {s
+        {
             public int CustomerId { get; set; }
             public string MembershipTier { get; set; }
             public List<PointsBreakdownDto> Orders { get; set; } = new();
